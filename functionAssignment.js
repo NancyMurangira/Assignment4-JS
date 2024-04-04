@@ -1,10 +1,10 @@
 // Question 1: Given an array of strings, use a function to reverse all the elements in the string in ascending order and the specific elements in descending order
 
-function reverseArray(arr) { 
-    let ArraySort = arr.map(str => str.split('').reverse().join(''));
+function reverseArray(names) { 
+    let ArraySort = names.map(str => str.split('').reverse().join(''));
    let descendingArray= ArraySort.reverse();
    console.log(descendingArray)
-      return ArraySort.sort(); }
+      return ArraySort.reverse(); }
       const names = ["Alice", "Mariam", "Beatrice", "Louisa"];
     console.log( reverseArray(names));
 
@@ -13,7 +13,7 @@ function reverseArray(arr) {
 
 function checkNumber(arrays,index){
     const arrayNumber=arrays[index];
-    if(num > 0){
+    if(arrayNumber > 0){
         return arrayNumber + "is positive";
     }
     else if(arrayNumber < 0){
