@@ -76,6 +76,14 @@ const car = { make: 'Ford', model: 'Ranger', year: 2023, displayInfo: function()
 
 console.log(car.age()); 
 
+// function salesArray(arr){
+//     let totalrevenue = arr.reduce((acc,curr) => acc + curr,0);
+//     console.log(totalrevenue);
+// }
+// let arr= [200000,400000,-600000];
+// console.log(salesArray(arr));
+
+
 
 
 
