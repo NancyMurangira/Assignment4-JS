@@ -65,10 +65,10 @@ class ques {
     nextQuestion(){
         this.currentQuestionIndex++;
     }
-    submitAnswer(userAnswer){
+    submitAnswer(answer){
         const currentQuestion = this.questions[this.currentQuestionIndex];
         if(currentQuestion.checkAnswer(answer)){
-            this.score++;
+            this.result++;
         }
     }
    }
